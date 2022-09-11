@@ -11,6 +11,7 @@ int main(void)
 {
 	int c;
 	int i;
+	
 	for (c = '0'; c <= '9'; c++)
 	{
 		for (i = '0'; i <= '9'; i++)
@@ -28,5 +29,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
