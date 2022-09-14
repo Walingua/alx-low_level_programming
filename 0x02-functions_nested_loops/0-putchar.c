@@ -1,4 +1,4 @@
-#include <main.h>
+#include <holberton.h>
 /**
  * main - entry point
  *
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char *sh = "_putchar";
+	char *sh = "holberton";
 
 	while (*sh)
 	{
