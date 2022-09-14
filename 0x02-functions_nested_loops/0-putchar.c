@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <main.h>
+#include "main.h"
 /**
  * _putchar - writes the character c to stdout
  * @c: the character to print
@@ -23,7 +23,7 @@ int main(void){
 		
 		}
 		_putchar('\n');
-		return(0)
+		return(0);
 
 }
 
