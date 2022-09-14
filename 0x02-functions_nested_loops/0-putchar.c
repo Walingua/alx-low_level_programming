@@ -3,8 +3,6 @@
  * main - prints _putchar then a new line 
  * Return: always false
  */
-
-
 int main(void)
 {
 	char c[] = "_putchar";
@@ -16,6 +14,4 @@ int main(void)
 	}
 	_putchar('\n');
 	return (0);
-
-
 }
