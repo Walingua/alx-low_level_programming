@@ -1,12 +1,11 @@
 #include "main.h"
-
 /**
- * _putchar - prints _putchar then a new line 
+ * main - prints _putchar then a new line 
  * Return: always false
  */
 
 
-int _main(void)
+int main(void)
 {
 	char c[] = "_putchar";
 	int i;
