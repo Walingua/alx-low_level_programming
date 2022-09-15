@@ -17,10 +17,9 @@ void jack_bauer(void)
 				{
 					if (i == '2' && j == '4')
 			        	{
-						return;																}
-																						_putchar(i);
-					_putchar(j);
-				 	_putchar(':');
+						return;																}																	_putchar(i);
+		           		_putchar(j);
+			        	_putchar(':');
 					_putchar(k);
 					_putchar(l);
 					_putchar('\n');
