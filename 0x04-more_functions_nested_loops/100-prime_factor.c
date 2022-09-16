@@ -1,28 +1,23 @@
-#include "main.h"
+#include <stdio>
 /**
- * print_triangl - entry function
- * @size: int function
+ * main - entry function
+ * Description: print prime factor
  * Return: 0
- */
-void print_triangle(int size)
+ */int main(void)
 {
-	int h, b;
-	
-	if (size <= 0)
-	       _putchar('\n');	
-	else
-	{
-		for (h = 1; h <= size; ++h)
-		{
-			for (b = 1; b <= size; ++b)
-			{	
-				if ((h+b) <= size)
-					_putchar(' ');
-				else
-					_putchar('#');
-			}
-			_putchar('\n');
-		}
-	}
-}
+	long n = 612852475143;
+	long div = 2;
+	long l_p = 0;
 
+	while (n % div == 0)
+	{
+		if (n % div == 0)
+		{
+			n = n / div;
+		        l_p = div;
+		}
+		div += 1;
+	}
+	printf("%ld\n", l_p);
+	return (0);
+}
