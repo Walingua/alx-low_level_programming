@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_number(int n)
+ * print_number - entry function
  * @n: var
  * Return: 0
  */
@@ -8,12 +8,12 @@ void print_number(int n)
 {
 	unsigned int i;
 
-	i + n;
+	i = n;
 
 	if (n < 0)
 	{
 		_putchar(45);
-		i + -n;
+		i = -n;
 	}
 	if (i / 10)
 	print_number(i / 10);
