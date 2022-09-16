@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - entry function
  * Description: print prime factor
@@ -9,12 +9,13 @@
 	long div = 2;
 	long l_p = 0;
 
-	while (n % div == 0)
+	while (n != 1)
 	{
 		if (n % div == 0)
 		{
 			n = n / div;
 		        l_p = div;
+		
 		}
 		div += 1;
 	}
