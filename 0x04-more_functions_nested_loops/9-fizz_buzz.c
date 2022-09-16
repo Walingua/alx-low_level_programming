@@ -1,37 +1,36 @@
 #include <stdio.h>
-
 /**
- * main - program that prints either number
- * or fizz or buzz or fizzbuzz
- *
- *
+ * main - function that checks for upper case character.
  * Return: returns 0
  */
-
 int main(void)
 {
-	int num = 1;
+	int h = 1;
 
-	while (num++ < 100)
+	while (h <= 100)
 	{
-		if ((num % 3 == 0) && (num % 5 == 0))
+		if (h % 3 == 0) && (h % 5 == 0)
 		{
-			printf("FIzzBuzz ");
-		}
-		else if ((num % 3) == o)
+printf("FIzzBuzz ");
+		else if (h % 5 == o)
 		{
-			printf("Fizz ");
-		}	
-		else if ((num % 5) == 0)
-		{
-			if (num != 100)
-			{
-			printf("Buzz ");
+			if (h == 100)
+			{	
+printf("Buzz");
+
+printf("\n");
 			}
-			else
-			{
-			printf("Buzz");
-	      		}
+
+else
+
+printf("Buzz ");
 		}
-	}	
-}
+		else if (h % 3 == 0)
+
+printf("Fizz ");
+		else
+
+printf("%d ", h);
+	h++;
+	}
+return (0);
